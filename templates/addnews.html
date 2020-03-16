@@ -1,0 +1,46 @@
+<!Doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+      body{
+         background-image: url('https://cdn.mos.cms.futurecdn.net/USBCe5fmW52K7Z9vVjArJM.jpg');
+         background-repeat: no-repeat;
+      }
+  </style>
+    <title>Add News Update</title>
+</head>
+<body>
+  <div img sc
+    <div class="container" >
+      <h2 style="color:#3363FF;">ข้อมูลการอัพเดต</h2>
+        <form action="{{url_for('insert') }}" method="POST">
+         <div class="form-group">
+           <label for="title" style="color:#3363FF;">หัวข้อ</label>
+           <input type="text" class="form-control"  name="title">
+         </div>
+         <div class="form-group">
+           <label for="title" style="color:#3363FF;">รายละเอีด</label>
+           <textarea class="form-control" rows="4" cols="50" name="desc" ></textarea>
+         </div>
+         <div class="form-group">
+           <label for="title" style="color:#3363FF;">เพิ่มเติม</label>
+           <input type="text" class="form-control"  name="url">
+         </div>
+         <!--<div class="form-group">
+           <label for="title">ภาพ</label>
+           <input type="text" class="form-control"  name="picurl">
+         </div>-->
+         <a class="btn btn-success" href="/" >กลับหน้าแรก</a>
+         <button type="submit" class="pull-right btn btn-primary">บันทึก</button>
+        </form>
+    </div>
+
+
+    
+
+</body>
+</html>

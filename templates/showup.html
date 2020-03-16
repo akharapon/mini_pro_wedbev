@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>News See Game</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/static/css/blog-home.css" rel="stylesheet">
+
+</head>
+
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">News Game</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/addup">Add </a>
+          </li>
+          <li class="nav-item">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container" align="center">
+
+    <div class="row">
+      
+      <div class="col-3" align="center">
+      </div>
+      <!-- Blog Entries Column -->
+      <div class="col-6" align="center">
+
+        <h1 class="my-4">Update
+          <small>Game</small>
+        </h1>
+        
+        <!-- Blog Post -->
+        <div class="card mb-8" align="center">
+          <img class="card-img-top" src="https://www.gamerr.net/gm_content/uploads/2019/10/tip-trick-dota2-1024x576.jpg" alt="Card image cap">
+          <div class="card-body">
+           <p>Just in time for Lunar New Year and the Rat's time in the cyclical place of honor, the Treasure of Unbound Majesty is now available.
+
+Packed full of sets for Drow Ranger, Visage, Undying, Storm Spirit, Dazzle, Kunkka, Arc Warden, Dark Willow, and Rubick, this treasure also includes the chance to unbox a rare Puck set, very rare Legion Commander set, or an extremely rare Templar Assassin set.
+
+Available for $2.49 in the Dota 2 store, you can claim one of these treasures as a gift for completing the New Bloom rewards line—which also unlocks this year's seasonal New Bloom Celebrations and giftable spins on the rewards wheel.</p>
+            <a href="https://store.steampowered.com/app/570/Dota_2/" class="btn btn-primary">Dowload</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" onclick="myFunction()">Edit</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 14, 2020 by
+            <a href="https://store.steampowered.com/app/570/Dota_2/">Dota2</a>
+          </div>
+          
+        </div>
+      <div class="col-3" align="center">
+      </div>
+      
+        <div class="col-lg-8 align-self-baseline">
+          <div id="myDIV">
+            <div class="container">
+              <h2>บันทึกข้อมูล</h2>
+                <form action="/page1" method="post">
+                <div class="form-group">
+                  <label for="title">หัวข้อ</label>
+                  <input type="text" class="form-control"  name="title">
+                </div>
+                <div class="form-group">
+                  <label for="title">รายละเอีด</label>
+                  <textarea class="form-control" rows="4" cols="50" name="desc" ></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="title">วันที่</label>
+                  <input type="date" class="form-control"  name="details">
+                </div>
+                <button type="submit" class="pull-right btn btn-primary">บันทึก</button>
+                </form>
+          </div>
+          </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</body></html>

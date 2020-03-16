@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <style>
+      body{
+         background-image: url('https://notebookspec.com/web/wp-content/uploads/2014/04/last-of-us-5.jpg');
+         background-repeat: repeat;
+         background-size: cover;
+      }
+  </style>
+
+  <title>News See Game</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/static/css/blog-home.css" rel="stylesheet">
+
+</head>
+
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">News Game</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/addnews">AddNews</a>
+          </li>
+          <li class="nav-item">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<background-image: url('https://cdn.mos.cms.futurecdn.net/USBCe5fmW52K7Z9vVjArJM.jpg') >
+  <!-- Page Content -->
+  <div class="container" align="center">
+
+    <div class="row">
+      
+      <div class="col-3" align="center">
+      </div>
+      <!-- Blog Entries Column -->
+      <div class="col-6" align="center">
+
+        <h1 class="my-4" style="color:#C4F1D0;" >Update
+          <small>Game</small>
+        </h1>
+        
+        <!-- Blog Post -->
+           
+        <div class="card mb-8" align="center">
+        <div img src="('https://cdn.mos.cms.futurecdn.net/USBCe5fmW52K7Z9vVjArJM.jpg')" >
+        {% for row in datas %}
+        <div class="card mb-4">
+          <!--img class="card-img-top" src=("{{row.6}}") alt="Card image cap"-->
+          <div class="card-body">
+            <h2 >{{row.1}}</h2>
+            <p>{{row.2}}</p>
+            <a href="{{row.4}} " class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on {{row.3}} 
+          </div>
+        </div>
+        {%endfor%}
+      <div class="col-3" align="center">
+     </div>
+  </div>
+</body></html>
